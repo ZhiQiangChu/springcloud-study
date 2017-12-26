@@ -48,6 +48,10 @@ public class AccessFilter extends ZuulFilter {
         return "pre";
     }
 
+    /**
+     * 这个方法是标志多个过滤器的执行的顺序
+     * @return
+     */
     @Override
     public int filterOrder() {
         return 1;
