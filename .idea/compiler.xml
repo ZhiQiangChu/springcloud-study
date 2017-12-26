@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="config-client" />
+        <module name="config-server-git" />
+        <module name="eureka-client" />
+        <module name="eureka-consul-client" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="eureka-consumer-ribbon (1)" />
+        <module name="eureka-server" />
+        <module name="ribbon-consumer" />
+        <module name="springboot-application" />
+      </profile>
+      <profile name="Annotation profile for springcloud-study" enabled="true">
+        <sourceOutputDir name="../eureka-consumer-ribbon/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../eureka-consumer-ribbon/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-consumer-ribbon-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server-git" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-consul-client" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-ribbon" target="1.8" />
+      <module name="eureka-consumer-ribbon (1)" target="1.8" />
+      <module name="eureka-consumer-ribbon-hystrix" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="springboot-application" target="1.8" />
+      <module name="springcloud-study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
