@@ -4,12 +4,16 @@ spring:
 server:
       port: 8006
 
-
 eureka:
     client:
       service-url:
             defaultZone: http://localhost:1111/eureka
 
-
+## 自定义route 的配置
+#zuul:
+#  routes:
+#    abc:
+#      path: /abc/**
+#      serviceId: abc
 
 
